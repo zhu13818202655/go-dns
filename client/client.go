@@ -59,7 +59,7 @@ func main() {
 		},
 	}
 
-	dnsServer := "127.0.0.1:11153"
+	dnsServer := "172.18.178.253:53"
 	var conn net.Conn
 	var err error
 	if conn, err = net.Dial("udp", dnsServer); err != nil {

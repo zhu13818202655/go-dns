@@ -85,4 +85,7 @@ func main() {
 	fmt.Println(uint_ip, ip2)
     sip, _ := net.LookupIP("www.baidu.com")
     fmt.Println(sip)
+    // conn, _ := net.Dial("udp", "172.18.178.253:53")
+    
+    
 }
